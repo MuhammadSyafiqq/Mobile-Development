@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomEditText">
+        <attr name="validationType" format="enum">
+            <enum name="name" value="1"/>
+            <enum name="email" value="2"/>
+            <enum name="password" value="3"/>
+            <enum name="confirmPassword" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>
